@@ -1,0 +1,339 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+*::selection {
+    background: #e30613;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+main{
+    max-width: 100%;
+    background-color: #191919;
+}
+.hong_servepage{
+    width: 90%;
+    margin: 0 auto;
+}
+.hong_sec1{
+    width: 100%; height: 700px;
+    position: relative;
+}
+.hong_sec1>article{
+    position: relative;
+}
+.hong_sec1>article>img{
+    width: 100%; height: 700px;
+    z-index: 999;
+}
+.hong_sec1>article>h1{
+    position: relative;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    top: -430px;
+    color: #ffffff;
+}
+.hong_sec1>article>ul{
+    position: relative;
+    position: absolute;
+    top: 550px; right: calc(50% - 330px);
+    display: flex;
+    background: rgb(16 16 16 / 50%);
+    backdrop-filter: blur(30px);
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    display: none;
+}
+.hong_sec1 .hong_sec1_bar{
+    padding-top: 20px;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.hong_sec1>article>ul>li{
+    display: block;
+    max-width: 220px;
+    width: 100%;
+    height: 60px;
+}
+.hong_sec1>article>ul>li>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+.hong_sec1 .hong_home>a>img{
+    width: 22px; height: 20px;
+    z-index: 999;
+}
+.hong_sec1 .hong_home>a:hover>img{
+    display: none;
+}
+.hong_sec1 .hong_home>a:hover>.red_home{
+    width: 22px; height: 20px;
+    z-index: 999;
+    background-image: url(./../img/red_home_img.png);
+    background-size: 22px;
+}
+.hong_history>select{
+    width: 217px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 20px 5px;
+    text-align: center;
+    outline-color: transparent;
+    cursor: pointer;
+}
+.hong_history>select:hover{
+    color: #e30613;
+}
+.hong_history option{
+    color: #fff;
+    background-color: #191919;
+}
+.hong_team>select{
+    width: 217px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 20px 5px;
+    text-align: center;
+    outline-color: transparent;
+    cursor: pointer;
+}
+.hong_team>select:hover{
+    color: #e30613;
+}
+.hong_team option{
+    color: #fff;
+    background-color: #191919;
+}
+
+
+
+
+.hong_sec2{
+    width: 70%; margin: 0 auto;
+}
+.hong_sec2_year1{
+    display: flex;
+    gap: 80px;
+    width: 100%; height: auto;
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 0 0 150px;
+}
+.hong_sec2_year1>div{
+    width: calc(50% - 40px);
+}
+.hong_sec2_year1 .hong_years::after{
+    content: '2023. 01';
+    color: #fff;
+    opacity: .2;
+    width: 100%;
+    font-size: 92px;
+    font-weight: 600;
+    display: block;
+    line-height: 1;
+    margin-bottom: -13px;
+    white-space: nowrap;
+}
+.hong_sec2_year1 img{
+    max-width: 700px;
+    width: 100%; max-height: 400px;
+    margin-top: 7px;
+    z-index: 999;
+}
+.hong_day_txt{
+    display: flex;
+    padding-top: 85px;
+}
+.hong_day_txt_m{
+    display: flex;
+    padding-top: 85px;
+}
+.hong_day_txt span{
+    font-size: 20px;
+    color: #e30613;
+}
+.hong_day_txt li{
+    font-size: 16px;
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+
+
+.hong_sec3{
+    max-width: 100%; height: auto;
+    padding-bottom: 150px;
+    background-color: #191919;
+    border-radius: 36px 36px 0 0;
+    border-top: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+
+}
+.hong_sec3_year2{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    max-width: 70%; height: auto;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.hong_sec3_year2>.hong_sec3_year2_img{
+    width: 700px;
+    z-index: 999;
+}
+.hong_sec3_year2 .hong_years::after{
+    content: '2023. 02';
+    text-align: right;
+    color: #fff;
+    opacity: .2;
+    width: 100%;
+    font-size: 92px;
+    font-weight: 600;
+    display: block;
+    line-height: 1;
+    margin-bottom: -13px;
+    white-space: nowrap;
+}
+.hong_sec3_year2 img{
+    max-width: 700px;
+    width: 100%; max-height: 400px;
+    margin-top: 7px;
+    z-index: 999;
+}
+
+
+.hong_sec4_year3{
+    display: flex;
+    gap: 80px;
+    max-width: 70%; height: auto;
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 0 0 150px;
+}
+.hong_sec4_year3>div{
+    width: calc(50% - 40px);
+}
+.hong_sec4_year3 .hong_years::after{
+    content: '2023. 03';
+    color: #fff;
+    opacity: .2;
+    width: 100%;
+    font-size: 92px;
+    font-weight: 600;
+    display: block;
+    line-height: 1;
+    margin-bottom: -13px;
+    white-space: nowrap;
+}
+.hong_sec4_year3 img{
+    max-width: 700px;
+    width: 100%; max-height: 400px;
+    margin-top: 7px;
+    z-index: 999;
+}
+
+.hong_sec5{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.hong_sec5_box{
+    display: block;
+    width: 60px; height: 60px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px 0;
+    position: relative;
+    left: calc(100% - 150px);
+}
+.hong_sec5_box:hover{
+    background-color: #e30613;
+}
+.hong_sec5_box>a>.arrow_black{
+    width: 40px; height: 40px;
+    background-position: center;
+    margin: 0 auto;
+    background-size: 40px;
+    background-image: url(../img/Asset_3.png);
+}
+.hong_sec5_box:hover>a>.arrow_black{
+    width: 40px; height: 40px;
+    background-position: center;
+    margin: 0 auto;
+    background-size: 40px;
+    background-image: url(../img/Asset_1.png);
+}
+
+
+@media screen and (max-width: 820px){
+    .hong_sec1>article>h1{
+        font-size: 32px;
+    }
+    .hong_sec1 select{
+        font-size: 14px;
+    }
+    .hong_sec2_year1 .hong_years::after{
+        font-size: 40px;
+    }
+    .hong_sec3_year2 .hong_years::after{
+        font-size: 40px;
+    }
+    .hong_sec4_year3 .hong_years::after{
+        font-size: 40px;
+    }
+    .hong_sec2_year1{
+        display: block;
+        margin-top: 70px;
+    }
+    .hong_sec2_year1>div{
+        width: 100%;
+    }
+    .hong_sec3_year2{
+        display: grid;
+        margin-top: 70px;
+        grid-template-columns: auto;
+    }
+    .hong_sec3_year2>.hong_sec3_year2_img{
+        width: 700px;
+        z-index: 999;
+    }
+    .hong_sec3_year2>.hong_sec3_year2_img{
+        width: 100%;
+        grid-row: 1/2;
+    }
+    .hong_sec4_year3{
+        display: block;
+        margin-top: 70px;
+    }
+    .hong_sec4_year3>div{
+    width: 100%;
+    }
+    .hong_day_txt{
+    display: block;
+    padding-top: 10px;
+    }
+    .hong_day_txt_m{
+    display: block;
+    padding-top: 1px;
+    }
+    .hong_sec5{
+        display: none;
+    }
+}
